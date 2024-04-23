@@ -127,7 +127,7 @@ a:focus{
     url(../images/img17.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100%;
+    width: 1400px;
     line-height: 1.5;
     letter-spacing: 2px;
     color: var(--white);
@@ -215,12 +215,14 @@ a:focus{
 
 .our__team {
     background-color: var(--lightgray);
-    margin-left: -32px;
+    margin-left: -140px;
     margin-right: -32px;
     padding-bottom: 86px;
     padding-top: 92px;
-    margin-bottom: -94px;
-    width: 1600px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 0px;
+    width: 1400px;
 }
 
 .our__team__members {
@@ -344,6 +346,7 @@ a:focus{
     padding-bottom: 50px;
     padding-left: 215px;
     gap: 70px;
+    width: 1400px;
 }
 .footer__container {
     padding-bottom: 28px;
